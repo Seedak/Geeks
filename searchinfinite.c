@@ -24,8 +24,7 @@ int findPos(int arr[], int key){
 }
 int main()
 {
-	int arr[]={3, 5, 7, 9, 10, 90, 100, 130, 
-							140, 160, 170};
+	int arr[]={3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
 	int ans=findPos(arr, 10);
 	if (ans==-1){
 		printf("Element not found");
