@@ -7,7 +7,6 @@ void validate(int arr[]){
         exit(0);
     }
 }
-
 int equilibrium(int arr[], int n)
 {
 int i, j;
